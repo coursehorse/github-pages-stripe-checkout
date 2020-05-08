@@ -281,6 +281,7 @@ button {
 }
 button:hover {
   filter: contrast(115%);
+  background-color: #ff8282;
 }
 button:active {
   transform: translateY(0px) scale(0.98);
@@ -339,7 +340,7 @@ pre {
   }
 
   .sr-header__logo {
-    background-position: center;
+    /* background-position: center; */
   }
 
   .sr-payment-summary {
@@ -472,6 +473,7 @@ pre {
 
 /* Custom */
 .sr-container {
+  margin: 0 auto;
   display: flex;
 }
 .container {
@@ -558,7 +560,6 @@ input[type="number"]::-webkit-outer-spin-button {
 .banner {
   max-width: 300px;
   margin: 0 auto;
-  padding: 0 22px;
   font-size: 14px;
   background: white;
   color: #6a7c94;
